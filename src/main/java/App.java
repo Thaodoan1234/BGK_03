@@ -12,7 +12,7 @@ public class App {
                 System.out.format("Tháng %d có 31 ngày\n", n);
             }
             if (n == 2) {
-                System.out.println("Tháng %d có 28 hoặc 29 ngày\n");
+                System.out.format("Tháng %d có 28 ngày\n", n);
             }
             if (n == 4 || n == 6 || n == 9 || n == 11) {
                 System.out.format("Tháng %d có 30 ngày\n", n);
